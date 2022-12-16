@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- тут чужая ссылка на иконки из кода для сайдбара -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' >
+    <!-- тут мои ссылки -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>FIXTIMER</title>
+</head>
+<body>
+    <div class="big-container">
+        <div class="wrapper">
+            <div class="sidebar">
+              <div class="logo-details">
+                <i class='bx bxl-c-plus-plus'></i>
+                <span class="logo_name">Platforeum</span>
+                <p class="logo_subname">cryptomarket</p>
+              </div>
+              <ul class="nav-links">
+                <li>
+                  <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">Home</span>
+                  </a>
+                  <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Home</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="#">
+                      <i class='bx bx-grid-alt'></i>
+                      <span class="link_name">Message</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#">Message</a></li>
+                    </ul>
+                  </li>
+                <li>
+                    <li>
+                        <a href="#">
+                          <i class='bx bx-grid-alt'></i>
+                          <span class="link_name">Global Market</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                          <li><a class="link_name" href="#">Global Market</a></li>
+                        </ul>
+                      </li>
+                    <li>
+                  <div class="icon-link">
+                    <a href="#">
+                      <i class='bx bx-collection'></i>
+                      <span class="link_name">My market</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a class="link_name" href="#">My market</a></li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">PHP & MySQL</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Setting</span>
+                  </a>
+                  <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                  </ul>
+                </li> <li>
+                    <a href="#">
+                      <i class='bx bx-cog'></i>
+                      <span class="link_name">Help</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#">Help</a></li>
+                    </ul>
+                  </li>
+                  <!--  <li>
+                  <div class="profile-details">
+                    <div class="profile-content">
+                      
+                    </div>
+                    <div class="name-job">
+                      <div class="profile_name">Prem Shahi</div>
+                      <div class="job">Web Desginer</div>
+                    </div>
+                    <i class='bx bx-log-out'></i>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+            <main class="market">
+                <section class="header">
+                    <div class="container">
+                        <div class="market__header">
+                            <h1 class="header__title">Global market</h1>
+                            <div class="header__profile">
+                                <a href="#" class="profile__favorites">
+                                    <img src="./img/profile-icon-1.svg" alt="" >
+                                </a>
+                                <a href="#" class="profile__alert">
+                                    <img src="./img/profile-icon-2.svg" alt="" >
+                                </a>
+                                <a href="#" class="profile__avatar">
+                                    <img src="./img/profile-avatar.png" alt="" >
+                                </a>
+                                <a href="#" class="profile__name">Janne</a>
+                                <a href="#" class="profile__arrow">
+                                    <img src="./img/profile-arrow-down.svg" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="nav">
+                    <nav class="nav__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >Cars</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >Property</a>
+                            </li>                        
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >Jobs</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >Community</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >Pets</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >Electronic</a>
+                            </li>                        
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >Hobby</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item-link" href="#" >See All</a>
+                            </li>
+                        </ul>              
+                    </nav>
+                </section>
+                <section class="promo">
+                    <div class="container">
+                        <div class="promo__slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide promo__item">
+                                <img class="promo__item-img" src="./img/slider-1.jpg" alt="" >
+                                <p class="promo__item-price">
+                                    $10,000
+                                </p>
+                                <a class="promo__item-name" href="#" >BMW i5, 2018</a>
+                                <p class="promo__item-text">
+                                    tovari na markete
+                                </p>
+                                </div>
+                                <div class="swiper-slide promo__item">
+                                    <img class="promo__item-img" src="./img//slider-2.jpg" alt="" >
+                                    <p class="promo__item-price">
+                                        $1,000,000
+                                    </p>
+                                    <a class="promo__item-name" href="#" >Lamborghini Huracan Super Trofeo Evo</a>
+                                    <p class="promo__item-text">
+                                        tovari na markete
+                                    </p>
+                                </div>                                  
+                            </div>
+                            <div class="promo__button swiper-button-left">
+                                  <img src="./img/blog-slider-arrows-left.svg" alt="">
+                            </div>
+                            <div class="promo__button swiper-button-right">
+                                  <img src="./img/blog-slider-arrows-right.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="filters">
+                    <div class="container">
+                        <div class="filters__inner">
+                                <form class="filters__form" action="#" method="#">
+                                    <input class="form__input" type="search" name="search" placeholder="Im looking for...">
+                                    <span>in</span> 
+                                    <label> 
+                                        <select class="form__select" name="location">
+                                            <option value="Sidney">Sidney</option>
+                                            <option value="Melbourne">Melbourne</option>
+                                            <option value="Novosibirsk">Novosibirsk</option>
+                                        </select>
+                                    </label>
+                                    <button class="form__btn" type="submit">Search</button>
+                                    <label>
+                                        <input class="form__input-btn" type="checkbox">
+                                        <span class="form__input-btn-text" >Buy</span>  
+                                        <a class="form__input-btn-link" href="#">(2 502)</a>
+                                    </label>
+                                    <label>
+                                        <input class="form__input-btn" type="checkbox">
+                                        <span class="form__input-btn-text">Swap</span>  
+                                        <a href="#">(856)</a>
+                                    </label>
+                                </form>
+                        </div>
+                    </div>
+                </section>
+                <section class="catalog">
+                    <div class="container">
+                        <div class="catalog__title">
+                            <h2>Popular categories</h2>
+                            <a class="catalog__subtitle" href="#" >VIEW ALL</a>
+                        </div>
+                        <ul class="catalog__list">
+                            <li class="catalog__list-item">
+                                <a class="catalog__list-link" href="#" >Transport</a>
+                                <img class="catalog__list-img" src="./img/catalog-1.png" alt="" >
+                            </li>
+                            <li class="catalog__list-item">
+                                   <a class="catalog__list-link" href="#" >Animals</a>
+                                <img class="catalog__list-img" src="./img/catalog-2.png" alt="" >
+                            </li>
+                            <li class="catalog__list-item">
+                                <a class="catalog__list-link" href="#" >Computers</a>
+                                <img class="catalog__list-img computers" src="./img/catalog-3.png" alt="" >
+                            </li>
+                             <li class="catalog__list-item">
+                                <a class="catalog__list-link" href="#" >Furniture</a>
+                                <img class="catalog__list-img" src="./img/catalog-4.png" alt="" >
+                            </li>
+                            <li class="catalog__list-item">
+                                <a class="catalog__list-link" href="#" >Clothes</a>
+                                <img class="catalog__list-img" src="./img/catalog-5.png" alt="" >
+                            </li>
+                            <li class="catalog__list-item">
+                                <a class="catalog__list-link" href="#" >Property</a>
+                                <img class="catalog__list-img" src="./img/catalog-6.png" alt="" >
+                            </li>
+                            <li class="catalog__list-item">
+                                <a class="catalog__list-link" href="#" >Games</a>
+                                <img class="catalog__list-img" src="./img/catalog-7.png" alt="" >
+                            </li>
+                            <li class="catalog__list-item">
+                                <a class="catalog__list-link" href="#" >Work</a>
+                                <img class="catalog__list-img" src="./img/catalog-8.png" alt="" >
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="special">
+                    <div class="container">
+                        <h2>Special for you</h2>
+                        <div class="special__inner">
+                            <ul class="special__list">
+                                <li class="special__list-item">
+                                    <img class="special__list-img" src="./img/special-1.jpg" alt="">
+                                    <span class="special__list-tags">SALE</span>
+                                    <a class="special__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="special__list-price-new">$943.65</span>
+                                    <span class="special__list-price-old">$5,200</span>
+                                    <div class="special__list-info">
+                                        <a class="special__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                                <li class="special__list-item">
+                                    <img class="special__list-img" src="./img/special-2.jpg" alt="">
+                                    <span class="special__list-tags">NEW</span>
+                                    <a class="special__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="special__list-price-new">$106.58</span>
+                                    <span class="special__list-price-old">$5,200</span>
+                                    <div class="special__list-info">
+                                        <a class="special__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                                <li class="special__list-item">
+                                    <img class="special__list-img" src="./img/special-3.jpg" alt="">
+                                    <span class="special__list-tags">SALE</span>
+                                    <a class="special__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="special__list-price-new">$710.68</span>
+                                    <span class="special__list-price-old">$5,200</span>
+                                    <div class="special__list-info">
+                                        <a class="special__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                                <li class="special__list-item">
+                                    <img class="special__list-img" src="./img/special-4.jpg" alt="">
+                                    <span class="special__list-tags">SALE</span>
+                                    <a class="special__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="special__list-price-new">$630.44</span>
+                                    <span class="special__list-price-old">$5,200</span>
+                                    <div class="special__list-info">
+                                        <a class="special__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="discover">
+                    <div class="container">
+                        <h2>Discover more</h2>
+                        <div class="discover__inner">
+                            <ul class="discover__list">
+                                <li class="discover__list-item">
+                                    <img class="discover__list-img" src="./img/discover-1.jpg" alt="">
+                                    <span class="discover__list-tags">SALE</span>
+                                    <a class="discover__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="discover__list-price-new">$710.68</span>
+                                    <span class="discover__list-price-old">$5,200</span>
+                                    <div class="discover__list-info">
+                                        <a class="discover__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                                <li class="discover__list-item">
+                                    <img class="discover__list-img" src="./img/discover-2.jpg" alt="">
+                                    <span class="discover__list-tags">SALE</span>
+                                    <a class="discover__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="discover__list-price-new">$630.44</span>
+                                    <span class="discover__list-price-old">$5,200</span>
+                                    <div class="discover__list-info">
+                                        <a class="discover__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                                <li class="discover__list-item">
+                                    <img class="discover__list-img" src="./img/discover-3.jpg" alt="">
+                                    <span class="discover__list-tags">SALE</span>
+                                    <a class="discover__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="discover__list-price-new">$943.65</span>
+                                    <span class="discover__list-price-old">$5,200</span>
+                                    <div class="discover__list-info">
+                                        <a class="discover__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                                <li class="discover__list-item">
+                                    <img class="discover__list-img" src="./img/discover-4.jpg" alt="">
+                                    <span class="discover__list-tags">SALE</span>
+                                    <a class="discover__list-name" href="#">Palit RTX 3060TI Dual</a>
+                                    <span class="discover__list-price-new">$106.58</span>
+                                    <span class="discover__list-price-old">$5,200</span>
+                                    <div class="discover__list-info">
+                                        <a class="discover__list-info-link" href="#">Melbourne</a>
+                                        <span>24 hours ago</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div>
+                </section>
+                
+            </main>
+        </div>
+    </div>
+    <!-- тут чужой скрипт из кода для сайдбара -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <!-- тут мой скрипт для слайдера -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
