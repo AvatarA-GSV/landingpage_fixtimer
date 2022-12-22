@@ -18,87 +18,48 @@
 <body>
     <div class="big-container">
         <div class="wrapper">
-            <div class="sidebar">
-              <div class="logo-details">
-                <i class='bx bxl-c-plus-plus'></i>
-                <span class="logo_name">Platforeum</span>
-                <p class="logo_subname">cryptomarket</p>
+            <aside class="sidebar">            
+              <h2 class="sidebar__title">
+                Platforeum
+              </h2>
+              <div class="sidebar__subtitle">
+                cryptomarket
               </div>
-              <ul class="nav-links">
-                <li>
-                  <a href="#">
-                    <i class='bx bx-grid-alt'></i>
-                    <span class="link_name">Home</span>
+              <div class="sidebar__balance">
+                <img class=sidebar__balance-img" src="./img/saidbar-balance.svg" alt="">
+                <a class="sidebar__balance-link" href="#">Balance</a>
+                <span class="sidebar__balance-text"> P 00 000 052 425 542</span>
+                <span class="sidebar__balance-text"> 0000 0000 0000 0000</span>
+                <div class="sidebar__balance-crypto">
+                  <a class="sidebar__balance-crypto-link" href="#">
+                    Buy cryptocard
                   </a>
-                  <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Home</a></li>
-                  </ul>
+                  <a class="sidebar__balance-crypto-btn" href="#">
+                    <img src="./img/saidbar-balance-icon.svg" alt="">
+                  </a>
+                </div>
+              </div>
+              <ul class="sidebar__list">
+                <li>
+                  <a href="#" class="sidebar__link home">Home</a>
                 </li>
                 <li>
-                    <a href="#">
-                      <i class='bx bx-grid-alt'></i>
-                      <span class="link_name">Message</span>
-                    </a>
-                    <ul class="sub-menu blank">
-                      <li><a class="link_name" href="#">Message</a></li>
-                    </ul>
-                  </li>
-                <li>
-                    <li>
-                        <a href="#">
-                          <i class='bx bx-grid-alt'></i>
-                          <span class="link_name">Global Market</span>
-                        </a>
-                        <ul class="sub-menu blank">
-                          <li><a class="link_name" href="#">Global Market</a></li>
-                        </ul>
-                      </li>
-                    <li>
-                  <div class="icon-link">
-                    <a href="#">
-                      <i class='bx bx-collection'></i>
-                      <span class="link_name">My market</span>
-                    </a>
-                    <i class='bx bxs-chevron-down arrow'></i>
-                  </div>
-                  <ul class="sub-menu">
-                    <li><a class="link_name" href="#">My market</a></li>
-                    <li><a href="#">HTML & CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">PHP & MySQL</a></li>
-                  </ul>
+                  <a href="#" class="sidebar__link message">Message</a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class='bx bx-cog'></i>
-                    <span class="link_name">Setting</span>
-                  </a>
-                  <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Setting</a></li>
-                  </ul>
-                </li> <li>
-                    <a href="#">
-                      <i class='bx bx-cog'></i>
-                      <span class="link_name">Help</span>
-                    </a>
-                    <ul class="sub-menu blank">
-                      <li><a class="link_name" href="#">Help</a></li>
-                    </ul>
-                  </li>
-                  <!--  <li>
-                  <div class="profile-details">
-                    <div class="profile-content">
-                      
-                    </div>
-                    <div class="name-job">
-                      <div class="profile_name">Prem Shahi</div>
-                      <div class="job">Web Desginer</div>
-                    </div>
-                    <i class='bx bx-log-out'></i>
-                  </div>
-                </li> -->
+                  <a href="#" class="sidebar__link glmarket">Global Market</a>
+                </li>
+                <li>
+                  <a href="#" class="sidebar__link mymarket">My market</a>
+                </li>
+                <li>
+                  <a href="#" class="sidebar__link settings">Settings</a>
+                </li>
+                <li>
+                  <a href="#" class="sidebar__link help">Help</a>
+                </li>
               </ul>
-            </div>
+            </aside>
             <main class="market">
                 <section class="header">
                     <div class="container">
@@ -226,7 +187,7 @@
                                 <img class="catalog__list-img" src="./img/catalog-1.png" alt="" >
                             </li>
                             <li class="catalog__list-item">
-                                   <a class="catalog__list-link" href="#" >Animals</a>
+                                <a class="catalog__list-link" href="#" >Animals</a>
                                 <img class="catalog__list-img" src="./img/catalog-2.png" alt="" >
                             </li>
                             <li class="catalog__list-item">
